@@ -11,7 +11,7 @@ openssl enc -aes-256-cbc -salt -in dec-file.dat -out enc-file.enc -md md5 -k "xy
 - Note : xyz is the password
 
 ```shell
-openssl enc -d -aes-256-cbc -in enc-file.enc -out dec-file.dec -k "ABCD" -md md5
+openssl enc -d -aes-256-cbc -in enc-file.enc -out dec-file.dec -k "xyz" -md md5
 
 ```
 
